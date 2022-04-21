@@ -7,26 +7,24 @@
 body{
   font-family: 'Outfit', sans-serif;
   background-color: hsl(217, 54%, 11%);
+  color:hsl(215, 32%, 27%);
 }
 
 .card{
   border: 1px solid red;
   background-color: hsl(216, 50%, 16%);
   border-radius: 4%;
-  text-align: center;
-  margin-top: 10%;
-  width: 30%;
-}
-
-.coverImg {
-  margin:0;
+  margin: 7% 36% 5%;
+  width: 25%;
+  padding: 2%;
 }
 
 .coverImg img{
   display: block;
+  border-radius: 4%;
   align-items: center;
-  margin: auto;
-  width: 30%;
+  margin: 0;
+  width: 100%;
 }
 
 .text{
@@ -34,7 +32,10 @@ body{
 }
 
 h1{
-  color: hsl(0, 0%, 100%)
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .subtext{
@@ -48,5 +49,38 @@ h1{
 }
 
 .priceInfo, .timeLimitInfo{
-  
+  display: flex;
+  flex-direction: row;
+}
+
+table td{
+  text-align: center;
+  margin:0;
+  border: 1px solid yellow;
+}
+
+.iconImg img{
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin:0;
+}
+
+a{
+  color:white;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }
