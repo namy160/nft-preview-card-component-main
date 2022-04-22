@@ -84,3 +84,10 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+
+footer{
+  margin-left: 36%;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 25%;
+}
