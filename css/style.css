@@ -53,16 +53,32 @@ h1{
   flex-direction: row;
 }
 
+table {
+  width: 100%;
+}
+
+table tr {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 table td{
+  width: fit-content;
   text-align: center;
   margin:0;
   border: 1px solid yellow;
 }
 
+table p {
+  font-size: small;
+}
+
 .iconImg img{
   display: flex;
   flex-wrap: wrap;
-  width: 50%;
+  width: 25px;
   margin:0;
 }
 
